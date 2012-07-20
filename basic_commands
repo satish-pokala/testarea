@@ -1,0 +1,59 @@
+create account on github  	satish-pokala
+send public key to veresh@intalio.com  id_rsa.pub
+create skypeid and add veresh_jain  	satish_pokala_84
+download sunjdk
+install opensvn 
+> sudo apt-get install openvpn
+
+
+download jruby 151
+ install buildr
+download jruby 131
+ install buildr
+
+git clone git://github.com/intalio/tempo.git
+https://makandracards.com/makandra/517-basic-git-commands1
+
+http://buildr.apache.org/installing.html#jruby
+
+What is maven
+
+for tempo to build
+export LIVE=no
+
+
+git checkout 6.3.x
+
+to get to eclipse
+jruby151 -S buildr eclipse
+
+
+git status
+jruby151 -S buildr clean package test=no
+
+1.Search a file by name
+
+find -name filename
+
+2. search file by its content
+
+grep -Ri "content_to_search" *
+
+-R = Recursive.
+i= ignore case.
+
+3. Application not responding, want to force close it.
+
+ps -ef | grep applicationName
+
+it will give you instance-id of that application.
+
+sudo kill -9 instance-id
+
+4. Any command ran with 'sudo' gives the command admin rights. It will ask for password.
+
+to check port 
+sudo netstat -anp | grep 8443
+
+
+
