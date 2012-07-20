@@ -1,4 +1,8 @@
 # some comments
+# some more commits
+# some more commits
+# some more commits
+
 {
 
     "instances": [
@@ -26,6 +30,13 @@
             "version": "7"
         }
     ]
-
+# some more commits
 }
+
 # some work after stash
+
+# some more commits
+# some more commits
+# some more commits
+# some more commits
+
